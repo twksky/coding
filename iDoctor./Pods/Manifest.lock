@@ -1,0 +1,107 @@
+PODS:
+  - Base64 (1.0.1)
+  - BMXSwitch (1.0)
+  - DACircularProgress (2.3.1)
+  - EaseMobSDK (2.1.3.3)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - HPGrowingTextView (1.1)
+  - iOS-QR-Code-Encoder (0.0.1)
+  - IQKeyboardManager (3.0.8)
+  - iRate (1.10.3)
+  - iVersion (1.10.6)
+  - JRSwizzle (1.0)
+  - JSONKit-NoWarning (1.2)
+  - Masonry (0.6.2)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (2.0.4)
+  - MKNetworkKit (0.87):
+    - Reachability (~> 3.1.0)
+  - MWPhotoBrowser (1.4.1):
+    - DACircularProgress
+    - MBProgressHUD (~> 0.8)
+    - PSTCollectionView (~> 1.2)
+    - SDWebImage (~> 3.7)
+  - PSTCollectionView (1.2.3)
+  - PureLayout (2.0.6)
+  - Reachability (3.1.1)
+  - REMenu (1.10)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SlimeRefresh (0.0.1)
+  - THProgressView (1.0)
+  - TTTAttributedLabel (1.10.1)
+  - UIAlertView-Blocks (1.0)
+  - UINavigationControllerWithCompletionBlock (0.0.8):
+    - JRSwizzle (~> 1.0)
+  - UITextView+Placeholder (1.0.9)
+  - UMeng (2.2.1)
+  - WCAlertView (1.0.1)
+  - WEPopover (1.0.0)
+
+DEPENDENCIES:
+  - Base64 (~> 1.0.1)
+  - BMXSwitch (~> 1.0)
+  - EaseMobSDK (~> 2.1.3.3)
+  - FMDB (~> 2.3)
+  - HPGrowingTextView (~> 1.1)
+  - iOS-QR-Code-Encoder (~> 0.0.1)
+  - IQKeyboardManager (~> 3.0.6)
+  - iRate (~> 1.10.2)
+  - iVersion (~> 1.10.6)
+  - JSONKit-NoWarning (~> 1.2)
+  - Masonry (~> 0.6.1)
+  - MBProgressHUD (~> 0.8)
+  - MJRefresh (~> 2.0.1)
+  - MKNetworkKit (~> 0.87)
+  - MWPhotoBrowser (~> 1.4.0)
+  - PureLayout (~> 2.0.6)
+  - REMenu (~> 1.10)
+  - SlimeRefresh (~> 0.0.1)
+  - THProgressView (~> 1.0)
+  - TTTAttributedLabel (~> 1.10.1)
+  - UIAlertView-Blocks (~> 1.0)
+  - UINavigationControllerWithCompletionBlock (~> 0.0.7)
+  - UITextView+Placeholder (~> 1.0.9)
+  - UMeng (~> 2.2.1)
+  - WCAlertView (~> 1.0.1)
+  - WEPopover (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  Base64: 4924bf3ca6fa559a5161ef717291bd450eb7bd1a
+  BMXSwitch: 9629c35bb3c147756eff3d362b4255bb8b12dfc5
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  EaseMobSDK: 90359de1dd00c72818b824005a734c7ad0ff0886
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  HPGrowingTextView: 88a716d97fb853bcb08a4a08e4727da17efc9b19
+  iOS-QR-Code-Encoder: 5aef73d5d6ecdb2031ced14e0e6eadfb8c637514
+  IQKeyboardManager: 99636798d52f410d6fbea9cdbf4deafc43ecc1f6
+  iRate: 724a3e080d5b0681e50a57d6cef1a81f83c23df3
+  iVersion: 4f941852969a9dc27edd55e39b809a59ad23137b
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: ea153717001d3c02444bd22b75c111d2937d2104
+  MKNetworkKit: 60ad3c83b62183e40ba75ce772c9427c25b520de
+  MWPhotoBrowser: 2531e682860d62b8a7ba8659de02eb9040e431e5
+  PSTCollectionView: 6749df92885353521f55279a7ce2b293762e2be4
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
+  REMenu: 30dad195930adf6c5eeb8041e3257aa60bf9fa49
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SlimeRefresh: c70e370dccfa8d74d4c3ff9702769d2b156a50e6
+  THProgressView: 999dc78f748f4cb6d69408f545de4d82ef7f1cec
+  TTTAttributedLabel: c8f3801a6463b9c9b82b0c84c465fdda9751892a
+  UIAlertView-Blocks: 7904744fca618afbd2ec646608924f5e69d5acd1
+  UINavigationControllerWithCompletionBlock: c043176ee769b1e108761fff73ed776645f0f9d0
+  UITextView+Placeholder: 83895056749372c96febfb43f536c9b1aae3e08e
+  UMeng: a4fe3231efeb223015d9649e92538dd16a92685f
+  WCAlertView: 36a1d087d0b3eb7f6ce3dae623fbb474f26f2beb
+  WEPopover: 615c27637d1763731cf7c51a9385ff1f25ff4816
+
+COCOAPODS: 0.38.2

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<provinces>
+<province name="北京" code="100">
+<city name="东城区" code="10000"/>
+<city name="西城区" code="10001"/>
+<city name="崇文区" code="10002"/>
+<city name="宣武区" code="10003"/>
+<city name="朝阳区" code="10004"/>
+<city name="丰台区" code="10005"/>
+<city name="石景山区" code="10006"/>
+<city name="海淀区" code="10007"/>
+<city name="门头沟区" code="10008"/>
+<city name="房山区" code="10009"/>
+<city name="通州区" code="10010"/>
+<city name="顺义区" code="10011"/>
+<city name="昌平区" code="10012"/>
+<city name="大兴区" code="10013"/>
+<city name="怀柔区" code="10014"/>
+<city name="平谷区" code="10015"/>
+<city name="密云县" code="10016"/>
+<city name="延庆县" code="10017"/>
+</province>
+<province name="天津" code="101">
+<city name="和平区" code="10100"/>
+<city name="河东区" code="10101"/>
+<city name="河西区" code="10102"/>
+<city name="南开区" code="10103"/>
+<city name="河北区" code="10104"/>
+<city name="红桥区" code="10105"/>
+<city name="塘沽区" code="10106"/>
+<city name="汉沽区" code="10107"/>
+<city name="大港区" code="10108"/>
+<city name="东丽区" code="10109"/>
+<city name="西青区" code="10110"/>
+<city name="津南区" code="10111"/>
+<city name="北辰区" code="10112"/>
+<city name="武清区" code="10113"/>
+<city name="宝坻区" code="10114"/>
+<city name="宁河县" code="10115"/>
+<city name="静海县" code="10116"/>
+<city name="蓟县" code="10117"/>
+</province>
+<province name="上海" code="102">
+    <city name="黄浦区" code="10200"/>
+    <city name="卢湾区" code="10201"/>
+    <city name="徐汇区" code="10202"/>
+    <city name="长宁区" code="10203"/>
+    <city name="静安区" code="10204"/>
+    <city name="普陀区" code="10205"/>
+    <city name="闸北区" code="10206"/>
+    <city name="虹口区" code="10207"/>
+    <city name="杨浦区" code="10208"/>
+    <city name="闵行区" code="10209"/>
+    <city name="宝山区" code="10210"/>
+    <city name="嘉定区" code="10211"/>
+    <city name="浦东新区" code="10212"/>
+    <city name="金山区" code="10213"/>
+    <city name="松江区" code="10214"/>
+    <city name="青浦区" code="10215"/>
+    <city name="南汇区" code="10216"/>
+    <city name="奉贤区" code="10217"/>
+    <city name="崇明县" code="10218"/>
+</province>
+<province name="重庆" code="103">
+    <city name="重庆" code="10300"/>
+    <city name="万州区" code="10301"/>
+    <city name="涪陵区" code="10302"/>
+    <city name="渝中区" code="10303"/>
+    <city name="大渡口区" code="10304"/>
+    <city name="江北区" code="10305"/>
+    <city name="沙坪坝区" code="10306"/>
+    <city name="九龙坡区" code="10307"/>
+    <city name="南岸区" code="10308"/>
+    <city name="北碚区" code="10309"/>
+    <city name="万盛区" code="10310"/>
+    <city name="双桥区" code="10311"/>
+    <city name="渝北区" code="10312"/>
+    <city name="巴南区" code="10313"/>
+    <city name="黔江区" code="10314"/>
+    <city name="长寿区" code="10315"/>
+    <city name="綦江县" code="10316"/>
+    <city name="潼南县" code="10317"/>
+    <city name="铜梁县" code="10318"/>
+    <city name="大足县" code="10319"/>
+    <city name="荣昌县" code="10320"/>
+    <city name="璧山县" code="10321"/>
+    <city name="梁平县" code="10322"/>
+    <city name="城口县" code="10323"/>
+    <city name="丰都县" code="10324"/>
+    <city name="垫江县" code="10325"/>
+    <city name="武隆县" code="10326"/>
+    <city name="忠县" code="10327"/>
+    <city name="开县" code="10328"/>
+    <city name="云阳县" code="10329"/>
+    <city name="奉节县" code="10330"/>
+    <city name="巫山县" code="10331"/>
+    <city name="巫溪县" code="10332"/>
+    <city name="石柱土家族自治县" code="10333"/>
+    <city name="秀山土家族苗族自治县" code="10334"/>
+    <city name="酉阳土家族苗族自治县" code="10335"/>
+    <city name="彭水苗族土家族自治县" code="10336"/>
+    <city name="江津" code="10337"/>
+    <city name="合川" code="10338"/>
+    <city name="永川" code="10339"/>
+    <city name="南川" code="10340"/>
+</province>
+<province name="河北" code="110">
+<city name="石家庄" code="11000"/>
+<city name="唐山" code="11001"/>
+<city name="秦皇岛" code="11002"/>
+<city name="邯郸" code="11003"/>
+<city name="邢台" code="11004"/>
+<city name="保定" code="11005"/>
+<city name="张家口" code="11006"/>
+<city name="承德" code="11007"/>
+<city name="沧州" code="11008"/>
+<city name="廊坊" code="11009"/>
+<city name="衡水" code="11010"/>
+</province>
+<province name="山西" code="111">
+<city name="太原" code="11100"/>
+<city name="大同" code="11101"/>
+<city name="阳泉" code="11102"/>
+<city name="长治" code="11103"/>
+<city name="晋城" code="11104"/>
+<city name="朔州" code="11105"/>
+<city name="晋中" code="11106"/>
+<city name="运城" code="11107"/>
+<city name="忻州" code="11108"/>
+<city name="临汾" code="11109"/>
+<city name="吕梁" code="11110"/>
+</province>
+<province name="内蒙古" code="112">
+<city name="呼和浩特" code="11200"/>
+<city name="包头" code="11201"/>
+<city name="乌海" code="11202"/>
+<city name="赤峰" code="11203"/>
+<city name="通辽" code="11204"/>
+<city name="鄂尔多斯" code="11205"/>
+<city name="呼伦贝尔" code="11206"/>
+<city name="巴彦淖尔" code="11207"/>
+<city name="乌兰察布" code="11208"/>
+<city name="兴安盟" code="11209"/>
+<city name="锡林郭勒盟" code="11210"/>
+<city name="阿拉善盟" code="11211"/>
+</province>
+<province name="辽宁" code="113">
+<city name="沈阳" code="11300"/>
+<city name="大连" code="11301"/>
+<city name="鞍山" code="11302"/>
+<city name="抚顺" code="11303"/>
+<city name="本溪" code="11304"/>
+<city name="丹东" code="11305"/>
+<city name="锦州" code="11306"/>
+<city name="营口" code="11307"/>
+<city name="阜新" code="11308"/>
+<city name="辽阳" code="11309"/>
+<city name="盘锦" code="11310"/>
+<city name="铁岭" code="11311"/>
+<city name="朝阳" code="11312"/>
+<city name="葫芦岛" code="11313"/>
+</province>
+<province name="吉林" code="114">
+<city name="长春" code="11400"/>
+<city name="吉林" code="11401"/>
+<city name="四平" code="11402"/>
+<city name="辽源" code="11403"/>
+<city name="通化" code="11404"/>
+<city name="白山" code="11405"/>
+<city name="松原" code="11406"/>
+<city name="白城" code="11407"/>
+<city name="延边" code="11408"/>
+</province>
+<province name="黑龙江" code="115">
+<city name="哈尔滨" code="11500"/>
+<city name="齐齐哈尔" code="11501"/>
+<city name="鸡西" code="11502"/>
+<city name="鹤岗" code="11503"/>
+<city name="双鸭山" code="11504"/>
+<city name="大庆" code="11505"/>
+<city name="伊春" code="11506"/>
+<city name="佳木斯" code="11507"/>
+<city name="七台河" code="11508"/>
+<city name="牡丹江" code="11509"/>
+<city name="黑河" code="11510"/>
+<city name="绥化" code="11511"/>
+<city name="大兴安岭" code="11512"/>
+</province>
+<province name="江苏" code="116">
+<city name="南京" code="11600"/>
+<city name="无锡" code="11601"/>
+<city name="徐州" code="11602"/>
+<city name="常州" code="11603"/>
+<city name="苏州" code="11604"/>
+<city name="南通" code="11605"/>
+<city name="连云港" code="11606"/>
+<city name="淮安" code="11607"/>
+<city name="盐城" code="11608"/>
+<city name="扬州" code="11609"/>
+<city name="镇江" code="11610"/>
+<city name="泰州" code="11611"/>
+<city name="宿迁" code="11612"/>
+</province>
+<province name="浙江" code="117">
+<city name="杭州" code="11700"/>
+<city name="宁波" code="11701"/>
+<city name="温州" code="11702"/>
+<city name="嘉兴" code="11703"/>
+<city name="湖州" code="11704"/>
+<city name="绍兴" code="11705"/>
+<city name="金华" code="11706"/>
+<city name="衢州" code="11707"/>
+<city name="舟山" code="11708"/>
+<city name="台州" code="11709"/>
+<city name="丽水" code="11710"/>
+</province>
+<province name="安徽" code="118">
+<city name="合肥" code="11800"/>
+<city name="芜湖" code="11801"/>
+<city name="蚌埠" code="11802"/>
+<city name="淮南" code="11803"/>
+<city name="马鞍山" code="11804"/>
+<city name="淮北" code="11805"/>
+<city name="铜陵" code="11806"/>
+<city name="安庆" code="11807"/>
+<city name="黄山" code="11808"/>
+<city name="滁州" code="11809"/>
+<city name="阜阳" code="11810"/>
+<city name="宿州" code="11811"/>
+<city name="巢湖" code="11812"/>
+<city name="六安" code="11813"/>
+<city name="亳州" code="11814"/>
+<city name="池州" code="11815"/>
+<city name="宣城" code="11816"/>
+</province>
+<province name="福建" code="119">
+<city name="福州" code="11900"/>
+<city name="厦门" code="11901"/>
+<city name="莆田" code="11902"/>
+<city name="三明" code="11903"/>
+<city name="泉州" code="11904"/>
+<city name="漳州" code="11905"/>
+<city name="南平" code="11906"/>
+<city name="龙岩" code="11907"/>
+<city name="宁德" code="11908"/>
+</province>
+<province name="江西" code="120">
+<city name="南昌" code="12000"/>
+<city name="景德镇" code="12001"/>
+<city name="萍乡" code="12002"/>
+<city name="九江" code="12003"/>
+<city name="新余" code="12004"/>
+<city name="鹰潭" code="12005"/>
+<city name="赣州" code="12006"/>
+<city name="吉安" code="12007"/>
+<city name="宜春" code="12008"/>
+<city name="抚州" code="12009"/>
+<city name="上饶" code="12010"/>
+</province>
+<province name="山东" code="121">
+<city name="济南" code="12100"/>
+<city name="青岛" code="12101"/>
+<city name="淄博" code="12102"/>
+<city name="枣庄" code="12103"/>
+<city name="东营" code="12104"/>
+<city name="烟台" code="12105"/>
+<city name="潍坊" code="12106"/>
+<city name="济宁" code="12107"/>
+<city name="泰安" code="12108"/>
+<city name="威海" code="12109"/>
+<city name="日照" code="12110"/>
+<city name="莱芜" code="12111"/>
+<city name="临沂" code="12112"/>
+<city name="德州" code="12113"/>
+<city name="聊城" code="12114"/>
+<city name="滨州" code="12115"/>
+<city name="荷泽" code="12116"/>
+</province>
+<province name="河南" code="122">
+<city name="郑州" code="12200"/>
+<city name="开封" code="12201"/>
+<city name="洛阳" code="12202"/>
+<city name="平顶山" code="12203"/>
+<city name="安阳" code="12204"/>
+<city name="鹤壁" code="12205"/>
+<city name="新乡" code="12206"/>
+<city name="焦作" code="12207"/>
+<city name="濮阳" code="12208"/>
+<city name="许昌" code="12209"/>
+<city name="漯河" code="12210"/>
+<city name="三门峡" code="12211"/>
+<city name="南阳" code="12212"/>
+<city name="商丘" code="12213"/>
+<city name="信阳" code="12214"/>
+<city name="周口" code="12215"/>
+<city name="驻马店" code="12216"/>
+</province>
+<province name="湖北" code="123">
+<city name="武汉" code="12300"/>
+<city name="黄石" code="12301"/>
+<city name="十堰" code="12302"/>
+<city name="宜昌" code="12303"/>
+<city name="襄樊" code="12304"/>
+<city name="鄂州" code="12305"/>
+<city name="荆门" code="12306"/>
+<city name="孝感" code="12307"/>
+<city name="荆州" code="12308"/>
+<city name="黄冈" code="12309"/>
+<city name="咸宁" code="12310"/>
+<city name="随州" code="12311"/>
+<city name="恩施" code="12312"/>
+<city name="神农架" code="12313"/>
+</province>
+<province name="湖南" code="124">
+<city name="长沙" code="12400"/>
+<city name="株洲" code="12401"/>
+<city name="湘潭" code="12402"/>
+<city name="衡阳" code="12403"/>
+<city name="邵阳" code="12404"/>
+<city name="岳阳" code="12405"/>
+<city name="常德" code="12406"/>
+<city name="张家界" code="12407"/>
+<city name="益阳" code="12408"/>
+<city name="郴州" code="12409"/>
+<city name="永州" code="12410"/>
+<city name="怀化" code="12411"/>
+<city name="娄底" code="12412"/>
+<city name="湘西" code="12413"/>
+</province>
+<province name="广东" code="125">
+<city name="广州" code="12500"/>
+<city name="韶关" code="12501"/>
+<city name="深圳" code="12502"/>
+<city name="珠海" code="12503"/>
+<city name="汕头" code="12504"/>
+<city name="佛山" code="12505"/>
+<city name="江门" code="12506"/>
+<city name="湛江" code="12507"/>
+<city name="茂名" code="12508"/>
+<city name="肇庆" code="12509"/>
+<city name="惠州" code="12510"/>
+<city name="梅州" code="12511"/>
+<city name="汕尾" code="12512"/>
+<city name="河源" code="12513"/>
+<city name="阳江" code="12514"/>
+<city name="清远" code="12515"/>
+<city name="东莞" code="12516"/>
+<city name="中山" code="12517"/>
+<city name="潮州" code="12518"/>
+<city name="揭阳" code="12519"/>
+<city name="云浮" code="12520"/>
+</province>
+<province name="广西" code="126">
+<city name="南宁" code="12600"/>
+<city name="柳州" code="12601"/>
+<city name="桂林" code="12602"/>
+<city name="梧州" code="12603"/>
+<city name="北海" code="12604"/>
+<city name="防城港" code="12605"/>
+<city name="钦州" code="12606"/>
+<city name="贵港" code="12607"/>
+<city name="玉林" code="12608"/>
+<city name="百色" code="12609"/>
+<city name="贺州" code="12610"/>
+<city name="河池" code="12611"/>
+<city name="来宾" code="12612"/>
+<city name="崇左" code="12613"/>
+</province>
+<province name="海南" code="127">
+<city name="海口" code="12700"/>
+<city name="三亚" code="12701"/>
+</province>
+<province name="四川" code="128">
+<city name="成都" code="12800"/>
+<city name="自贡" code="12801"/>
+<city name="攀枝花" code="12802"/>
+<city name="泸州" code="12803"/>
+<city name="德阳" code="12804"/>
+<city name="绵阳" code="12805"/>
+<city name="广元" code="12806"/>
+<city name="遂宁" code="12807"/>
+<city name="内江" code="12808"/>
+<city name="乐山" code="12809"/>
+<city name="南充" code="12810"/>
+<city name="眉山" code="12811"/>
+<city name="宜宾" code="12812"/>
+<city name="广安" code="12813"/>
+<city name="达州" code="12814"/>
+<city name="雅安" code="12815"/>
+<city name="巴中" code="12816"/>
+<city name="资阳" code="12817"/>
+<city name="阿坝" code="12818"/>
+<city name="甘孜" code="12819"/>
+<city name="凉山" code="12820"/>
+</province>
+<province name="贵州" code="129">
+<city name="贵阳" code="12900"/>
+<city name="六盘水" code="12901"/>
+<city name="遵义" code="12902"/>
+<city name="安顺" code="12903"/>
+<city name="铜仁" code="12904"/>
+<city name="黔西南" code="12905"/>
+<city name="毕节" code="12906"/>
+<city name="黔东南" code="12907"/>
+<city name="黔南" code="12908"/>
+</province>
+<province name="云南" code="130">
+<city name="昆明" code="13000"/>
+<city name="曲靖" code="13001"/>
+<city name="玉溪" code="13002"/>
+<city name="保山" code="13003"/>
+<city name="昭通" code="13004"/>
+<city name="丽江" code="13005"/>
+<city name="思茅" code="13006"/>
+<city name="临沧" code="13007"/>
+<city name="楚雄" code="13008"/>
+<city name="红河" code="13009"/>
+<city name="文山" code="13010"/>
+<city name="西双版纳" code="1301"/>
+<city name="大理" code="13012"/>
+<city name="德宏" code="13013"/>
+<city name="怒江" code="13014"/>
+<city name="迪庆" code="13015"/>
+</province>
+<province name="西藏" code="131">
+<city name="拉萨" code="13100"/>
+<city name="昌都" code="13101"/>
+<city name="山南" code="13102"/>
+<city name="日喀则" code="13103"/>
+<city name="那曲" code="13104"/>
+<city name="阿里" code="13105"/>
+<city name="林芝" code="13106"/>
+</province>
+<province name="陕西" code="132">
+<city name="西安" code="13200"/>
+<city name="铜川" code="13201"/>
+<city name="宝鸡" code="13202"/>
+<city name="咸阳" code="13203"/>
+<city name="渭南" code="13204"/>
+<city name="延安" code="13205"/>
+<city name="汉中" code="13206"/>
+<city name="榆林" code="13207"/>
+<city name="安康" code="13208"/>
+<city name="商洛" code="13209"/>
+</province>
+<province name="甘肃" code="133">
+<city name="兰州" code="13300"/>
+<city name="嘉峪关" code="13301"/>
+<city name="金昌" code="13302"/>
+<city name="白银" code="13303"/>
+<city name="天水" code="13304"/>
+<city name="武威" code="13305"/>
+<city name="张掖" code="13306"/>
+<city name="平凉" code="13307"/>
+<city name="酒泉" code="13308"/>
+<city name="庆阳" code="13309"/>
+<city name="定西" code="13310"/>
+<city name="陇南" code="13311"/>
+<city name="临夏" code="13312"/>
+<city name="甘南" code="13313"/>
+</province>
+<province name="青海" code="134">
+<city name="西宁" code="13400"/>
+<city name="海东" code="13401"/>
+<city name="海北" code="13402"/>
+<city name="黄南" code="13403"/>
+<city name="海南" code="13404"/>
+<city name="果洛" code="13405"/>
+<city name="玉树" code="13406"/>
+<city name="海西" code="13407"/>
+</province>
+<province name="宁夏" code="135">
+<city name="银川" code="13500"/>
+<city name="石嘴山" code="13501"/>
+<city name="吴忠" code="13502"/>
+<city name="固原" code="13503"/>
+<city name="中卫" code="13504"/>
+</province>
+<province name="新疆" code="136">
+<city name="乌鲁木齐" code="13600"/>
+<city name="克拉玛依" code="13601"/>
+<city name="吐鲁番" code="13602"/>
+<city name="哈密" code="13603"/>
+<city name="昌吉" code="13604"/>
+<city name="博尔塔拉" code="13605"/>
+<city name="巴音郭楞" code="13606"/>
+<city name="阿克苏" code="13607"/>
+<city name="克孜勒苏" code="13608"/>
+<city name="喀什" code="13609"/>
+<city name="和田" code="13610"/>
+<city name="伊犁" code="13611"/>
+<city name="塔城" code="13612"/>
+<city name="阿勒泰" code="13613"/>
+<city name="石河子" code="13614"/>
+<city name="阿拉尔" code="13615"/>
+<city name="图木舒克" code="13616"/>
+<city name="五家渠" code="13617"/>
+</province>
+<province name="香港" code="137">
+<city name="香港" code="13700"/>
+</province>
+<province name="澳门" code="138">
+<city name="澳门" code="13800"/>
+</province>
+<province name="台湾" code="139">
+<city name="台湾" code="13900"/>
+</province>
+</provinces>

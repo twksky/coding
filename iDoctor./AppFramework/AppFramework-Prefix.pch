@@ -1,0 +1,65 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+//#define DEBUG_TEST
+
+#import "Macro.h"
+#import "EaseMob.h"
+
+//#import "ChatDemoUIDefine.h"
+#import "WCAlertView.h"
+//#import "TTGlobalUICommon.h"
+#import "UIViewController+HUD.h"
+#import "UIViewController+DismissKeyboard.h"
+#import "NSString+Valid.h"
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0f \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0f blue:((float)(rgbValue & 0xFF))/255.0f \
+alpha:1.0f]
+
+
+#define kAlphaNum           @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+#define kAlpha              @"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz "
+#define kNumbers            @"0123456789"
+#define kNumbersPeriod      @"0123456789."
+
+// ========== Other ==========
+#define kRemoteNotificationName @"remoteNotificationReceived"
+
+#define KMESSAGEKEY @"Message"
+#define KNOTIFICATION_LOGINCHANGE @"loginStateChange"
+
+#define NTF_WILLSENDMESSAGETOUSERNAME                       @"NTF_WILLSENDMESSAGETOUSERNAME"
+#define WILLSENDMESSAGETOUSERNAME                           @"WILLSENDMESSAGETOUSERNAME"
+#define WILLSENDMESSAGETOUSERNAME_CHATROOMMESSAGE           @"WILLSENDMESSAGETOUSERNAME_CHATROOMMESSAGE"
+
+// 联系人信息
+#define CONTACT_AVATAR @"avatar"
+#define CONTACT_NICKNAME @"nick"
+#define CONTACT_USERNAME @"username"
+#define CONTACT_SIGNATURE @"signature"
+#define CONTACT_SEX @"sex"
+#define CONTACT_ADDRESS @"author_active_region"
+#define CONTACT_BGPICTURE @"friendMomentPicture"
+#define CONTACT_MOBILE @"mobile"
+#define CONTACT_EMAIL @"email"
+#define CONTACT_MEMO @"memo"
+
+#define kDoctorAssistantID  100002
+
+// 上AppStore时注释掉如下这一行
+#define kCompileForEnterprise   1

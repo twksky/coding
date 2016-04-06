@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>52CD3541-9D33-497D-AFBA-6D7AE64B11AF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AppFramework</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>347F7EEFE3282C1EB1B382E9FBDFF8B37026438D</key>
+		<string>http://git.oschina.net/zixun/Ios-iDoctor-doctor</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AppFramework.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>347F7EEFE3282C1EB1B382E9FBDFF8B37026438D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://git.oschina.net/zixun/Ios-iDoctor-doctor</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>347F7EEFE3282C1EB1B382E9FBDFF8B37026438D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>347F7EEFE3282C1EB1B382E9FBDFF8B37026438D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iDoctor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
