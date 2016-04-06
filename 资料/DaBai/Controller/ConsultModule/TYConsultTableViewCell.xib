@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TYConsultTableViewCell" id="KGk-i7-Jjw" customClass="TYConsultTableViewCell" customModule="DaBai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="咨询编号" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxo-LH-LcH">
+                        <rect key="frame" x="8" y="8" width="76" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姓名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ot-KU-XGP">
+                        <rect key="frame" x="84" y="8" width="76" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="年龄" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Loq-Fp-KHG">
+                        <rect key="frame" x="160" y="8" width="76" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="咨询状态" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qnm-hr-W12">
+                        <rect key="frame" x="236" y="8" width="76" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Loq-Fp-KHG" firstAttribute="leading" secondItem="8ot-KU-XGP" secondAttribute="trailing" id="4rm-BA-Kn8"/>
+                    <constraint firstItem="Zxo-LH-LcH" firstAttribute="width" secondItem="8ot-KU-XGP" secondAttribute="width" id="CyA-jd-8r0"/>
+                    <constraint firstItem="Zxo-LH-LcH" firstAttribute="height" secondItem="8ot-KU-XGP" secondAttribute="height" id="Dj6-hw-Ffc"/>
+                    <constraint firstItem="Zxo-LH-LcH" firstAttribute="width" secondItem="Qnm-hr-W12" secondAttribute="width" id="Fsj-q4-8PS"/>
+                    <constraint firstItem="Zxo-LH-LcH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Lbt-HP-uzY"/>
+                    <constraint firstItem="Zxo-LH-LcH" firstAttribute="height" secondItem="Loq-Fp-KHG" secondAttribute="height" id="Pz6-z1-pZx"/>
+                    <constraint firstItem="Qnm-hr-W12" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="QgY-2n-bat"/>
+                    <constraint firstItem="Qnm-hr-W12" firstAttribute="leading" secondItem="Loq-Fp-KHG" secondAttribute="trailing" id="Rai-s3-ocr"/>
+                    <constraint firstItem="8ot-KU-XGP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Sof-UI-5F8"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Qnm-hr-W12" secondAttribute="bottom" constant="3" id="U9e-mt-PfA"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="8ot-KU-XGP" secondAttribute="bottom" constant="3" id="Xpi-JQ-pRQ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Loq-Fp-KHG" secondAttribute="bottom" constant="3" id="ZNS-Pf-MzC"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Zxo-LH-LcH" secondAttribute="bottom" constant="3" id="hhb-Si-KnN"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Qnm-hr-W12" secondAttribute="trailing" id="nqa-ha-n8E"/>
+                    <constraint firstItem="Zxo-LH-LcH" firstAttribute="height" secondItem="Qnm-hr-W12" secondAttribute="height" id="oNV-Jo-ZcV"/>
+                    <constraint firstItem="8ot-KU-XGP" firstAttribute="leading" secondItem="Zxo-LH-LcH" secondAttribute="trailing" id="qas-UY-WaW"/>
+                    <constraint firstItem="Loq-Fp-KHG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="sZa-VZ-md4"/>
+                    <constraint firstItem="Zxo-LH-LcH" firstAttribute="width" secondItem="Loq-Fp-KHG" secondAttribute="width" id="wRz-Ds-JkQ"/>
+                    <constraint firstItem="Zxo-LH-LcH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="yVp-nV-Bm6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="consultStateLabel" destination="Qnm-hr-W12" id="kCr-7d-UL2"/>
+                <outlet property="orderNumberLable" destination="Zxo-LH-LcH" id="6h3-xZ-sVy"/>
+                <outlet property="patientAgeLabel" destination="Loq-Fp-KHG" id="UsI-rj-826"/>
+                <outlet property="patientNameLabel" destination="8ot-KU-XGP" id="sPe-CH-fgd"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

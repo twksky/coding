@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  iDoctor_BigBang
+//
+//  Created by twksky on 15/9/6.
+//  Copyright (c) 2015年 twksky. All rights reserved.
+//
+
+#ifndef iDoctor_BigBang_PrefixHeader_pch
+#define iDoctor_BigBang_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#pragma mark - Masonry宏定义
+// 定义这个宏可以使用一些更简洁的方法
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#define kDoctorAssistantID @"100002"
+#define kUser 139212
+#define KContactViewRefresh 18600013 //这是周世阳手机号码前几位，记得给他打电话，用于通讯录刷新用的
+
+#import <UIKit/UIKit.h>
+#import <Masonry.h>
+#import "UIView+Extension.h"
+#import "MBProgressHUD+Extension.h"
+#import "GlobalFile.h"
+#import "NSString+Extension.h"
+#import "UIImage+Extension.h"
+#import "UILabel+Category.h"
+#import <MJRefresh.h>
+#import <MJExtension.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIImage+GIF.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import "APIManager.h"
+#import <FMDatabase.h>
+#import <FMDatabaseQueue.h>
+#import <MJRefresh.h>
+#import <EaseMob.h>
+#import <SRRefreshView.h>
+#import <WCAlertView.h>
+#import "AccountManager.h"
+#import "GlideManger.h"
+#import <IQKeyboardManager.h>
+#import <IQKeyboardReturnKeyHandler.h>
+#import <IQToolbar.h>
+#import "IDErrorView.h"
+#endif

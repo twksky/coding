@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A68428EEB364874F7947FA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BFF6787EE24CDCEC6080EC /* libPods.a */; };
+		7C2C0D671B43747300A3406D /* TYDoctorSonDicEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C0D661B43747300A3406D /* TYDoctorSonDicEntity.swift */; };
+		DE59DB421B3BE68300A900A3 /* TYWorkTitleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59DB411B3BE68300A900A3 /* TYWorkTitleTableViewController.swift */; };
+		DE59DB441B3BEC3A00A900A3 /* TYDicStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE59DB431B3BEC3A00A900A3 /* TYDicStorage.swift */; };
+		DE5D17EE1B32734C0018D291 /* TYSelectConsultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D17ED1B32734C0018D291 /* TYSelectConsultViewController.swift */; };
+		DE90633F1B298DC40051CC69 /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE9063271B298DC40051CC69 /* MJRefresh.bundle */; };
+		DE9063401B298DC40051CC69 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DE90632A1B298DC40051CC69 /* MJRefreshComponent.m */; };
+		DE9063411B298DC40051CC69 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DE90632C1B298DC40051CC69 /* MJRefreshConst.m */; };
+		DE9063421B298DC40051CC69 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE90632E1B298DC40051CC69 /* MJRefreshFooter.m */; };
+		DE9063431B298DC40051CC69 /* MJRefreshGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9063301B298DC40051CC69 /* MJRefreshGifFooter.m */; };
+		DE9063441B298DC40051CC69 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9063321B298DC40051CC69 /* MJRefreshGifHeader.m */; };
+		DE9063451B298DC40051CC69 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9063341B298DC40051CC69 /* MJRefreshHeader.m */; };
+		DE9063461B298DC40051CC69 /* MJRefreshLegendFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9063361B298DC40051CC69 /* MJRefreshLegendFooter.m */; };
+		DE9063471B298DC40051CC69 /* MJRefreshLegendHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9063381B298DC40051CC69 /* MJRefreshLegendHeader.m */; };
+		DE9063481B298DC40051CC69 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE90633A1B298DC40051CC69 /* UIScrollView+MJExtension.m */; };
+		DE9063491B298DC40051CC69 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = DE90633C1B298DC40051CC69 /* UIScrollView+MJRefresh.m */; };
+		DE90634A1B298DC40051CC69 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = DE90633E1B298DC40051CC69 /* UIView+MJExtension.m */; };
+		DEE193221B1EFB2D00CB73C5 /* TYAppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE193211B1EFB2D00CB73C5 /* TYAppUtils.swift */; };
+		DEE193361B1F00AA00CB73C5 /* TYBaseInformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE193281B1F00AA00CB73C5 /* TYBaseInformationTableViewController.swift */; };
+		DEE193371B1F00AA00CB73C5 /* ChargeSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1932A1B1F00AA00CB73C5 /* ChargeSettingViewController.swift */; };
+		DEE193381B1F00AA00CB73C5 /* TYExpandInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1932C1B1F00AA00CB73C5 /* TYExpandInformationViewController.swift */; };
+		DEE193391B1F00AA00CB73C5 /* TYLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1932E1B1F00AA00CB73C5 /* TYLoginViewController.swift */; };
+		DEE1933A1B1F00AA00CB73C5 /* TYChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE193301B1F00AA00CB73C5 /* TYChangePasswordViewController.swift */; };
+		DEE1933B1B1F00AA00CB73C5 /* TYFindPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE193311B1F00AA00CB73C5 /* TYFindPasswordViewController.swift */; };
+		DEE1933C1B1F00AA00CB73C5 /* TYRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE193331B1F00AA00CB73C5 /* TYRegistViewController.swift */; };
+		DEE1933D1B1F00AA00CB73C5 /* UseCentreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE193351B1F00AA00CB73C5 /* UseCentreViewController.swift */; };
+		DEE193411B1F00BC00CB73C5 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE193401B1F00BC00CB73C5 /* testViewController.swift */; };
+		DEE327171B2148F000007019 /* TYPatientInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE327161B2148F000007019 /* TYPatientInfoViewController.swift */; };
+		DEE3271B1B21515200007019 /* TYPatientInfoTableViewCellEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3271A1B21515200007019 /* TYPatientInfoTableViewCellEntity.swift */; };
+		DEE3271E1B2151A800007019 /* TYPatientInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3271C1B2151A800007019 /* TYPatientInfoTableViewCell.swift */; };
+		DEE3271F1B2151A800007019 /* TYPatientInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE3271D1B2151A800007019 /* TYPatientInfoTableViewCell.xib */; };
+		DEE327231B21763600007019 /* TYAddPatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE327221B21763600007019 /* TYAddPatientViewController.swift */; };
+		DEE4709D1B16ADB30030AF55 /* libALBB_OSS_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE4708E1B16ADB30030AF55 /* libALBB_OSS_IOS_SDK.a */; };
+		DEE5325B1B38EEC900319831 /* TYWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE5325A1B38EEC900319831 /* TYWebSocket.swift */; };
+		DEE6496E1B144D88004D7469 /* UserDefaultsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6496D1B144D88004D7469 /* UserDefaultsUtils.swift */; };
+		DEE6AEE31B0EC2E900238356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6AEE21B0EC2E900238356 /* AppDelegate.swift */; };
+		DEE6AEE51B0EC2E900238356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6AEE41B0EC2E900238356 /* ViewController.swift */; };
+		DEE6AEE81B0EC2E900238356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE6AEE61B0EC2E900238356 /* Main.storyboard */; };
+		DEE6AEEA1B0EC2E900238356 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE6AEE91B0EC2E900238356 /* Images.xcassets */; };
+		DEE6AEED1B0EC2E900238356 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE6AEEB1B0EC2E900238356 /* LaunchScreen.xib */; };
+		DEE6AEF91B0EC2E900238356 /* DaBaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6AEF81B0EC2E900238356 /* DaBaiTests.swift */; };
+		DEE6DCE81B2FCEDA00420802 /* TYSelectDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6DCE71B2FCEDA00420802 /* TYSelectDoctorViewController.swift */; };
+		DEE8D69B1B3A42B500DD61A5 /* TYConsultingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE8D69A1B3A42B500DD61A5 /* TYConsultingViewController.swift */; };
+		DEE95D881B267A72004891A1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE95D871B267A72004891A1 /* AVFoundation.framework */; };
+		DEEB7E071B1C059B00EF2A3C /* TYCityPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB7E061B1C059B00EF2A3C /* TYCityPickerView.swift */; };
+		DEEB7E091B1C09A700EF2A3C /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEEB7E081B1C09A700EF2A3C /* area.plist */; };
+		DEEC9B221B25414500CF06E0 /* TYAddPacaseHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC9B211B25414500CF06E0 /* TYAddPacaseHistoryViewController.swift */; };
+		DEEC9B241B25441D00CF06E0 /* TYPacaseHistoryInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEC9B231B25441D00CF06E0 /* TYPacaseHistoryInfoViewController.swift */; };
+		DEED6C3E1B12F0A40065667E /* TYNetworkingSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED6C3D1B12F0A40065667E /* TYNetworkingSetting.swift */; };
+		DEED6C471B12F80F0065667E /* TYBaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED6C461B12F80F0065667E /* TYBaseHandler.swift */; };
+		DEED6C491B12F8210065667E /* TYBaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED6C481B12F8210065667E /* TYBaseEntity.swift */; };
+		DEED6C4D1B12F87A0065667E /* TYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED6C4C1B12F87A0065667E /* TYBaseViewController.swift */; };
+		DEF1ED081B2924C8001D6DA4 /* TYWenZhenListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF1ED071B2924C8001D6DA4 /* TYWenZhenListViewController.swift */; };
+		DEF1ED0A1B2924D8001D6DA4 /* TYHuiZhenListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF1ED091B2924D8001D6DA4 /* TYHuiZhenListViewController.swift */; };
+		DEF1ED0C1B292AFA001D6DA4 /* TYConsultInfoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF1ED0B1B292AFA001D6DA4 /* TYConsultInfoEntity.swift */; };
+		DEF1ED0F1B295AC9001D6DA4 /* TYConsultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF1ED0D1B295AC9001D6DA4 /* TYConsultTableViewCell.swift */; };
+		DEF1ED101B295AC9001D6DA4 /* TYConsultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF1ED0E1B295AC9001D6DA4 /* TYConsultTableViewCell.xib */; };
+		DEF369571B2EAC2E00AF93F7 /* IQAudioRecorderController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF369501B2EAC2E00AF93F7 /* IQAudioRecorderController.m */; };
+		DEF369581B2EAC2E00AF93F7 /* audio_record.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF369521B2EAC2E00AF93F7 /* audio_record.png */; };
+		DEF369591B2EAC2E00AF93F7 /* audio_record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF369531B2EAC2E00AF93F7 /* audio_record@2x.png */; };
+		DEF3695A1B2EAC2E00AF93F7 /* SCSiriWaveformView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF369561B2EAC2E00AF93F7 /* SCSiriWaveformView.m */; };
+		DEF3695D1B2ED4F700AF93F7 /* TYDoctorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3695C1B2ED4F700AF93F7 /* TYDoctorListViewController.swift */; };
+		DEF369601B2ED73300AF93F7 /* TYDoctorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF3695E1B2ED73300AF93F7 /* TYDoctorTableViewCell.swift */; };
+		DEF369611B2ED73300AF93F7 /* TYDoctorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF3695F1B2ED73300AF93F7 /* TYDoctorTableViewCell.xib */; };
+		DEF369631B2ED99E00AF93F7 /* TYDoctorTableViewCellEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF369621B2ED99E00AF93F7 /* TYDoctorTableViewCellEntity.swift */; };
+		DEFCF5561B14588800CC4744 /* TYSysConfigStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCF5551B14588800CC4744 /* TYSysConfigStorage.swift */; };
+		DEFCF55A1B14714900CC4744 /* TYDoctorInformationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCF5591B14714900CC4744 /* TYDoctorInformationStorage.swift */; };
+		DEFFFAE21B2044F2008F12AC /* TYOssDownloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFACF1B2044F2008F12AC /* TYOssDownloadHandler.swift */; };
+		DEFFFAE31B2044F2008F12AC /* TYOssHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAD01B2044F2008F12AC /* TYOssHandler.swift */; };
+		DEFFFAE41B2044F2008F12AC /* TYOssUploadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAD11B2044F2008F12AC /* TYOssUploadHandler.swift */; };
+		DEFFFAE61B2044F2008F12AC /* TYDoctorUpdateAccountHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAD51B2044F2008F12AC /* TYDoctorUpdateAccountHandler.swift */; };
+		DEFFFAE71B2044F2008F12AC /* TYDoctorUpdateExpandHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAD61B2044F2008F12AC /* TYDoctorUpdateExpandHandler.swift */; };
+		DEFFFAE81B2044F2008F12AC /* TYDoctorUpdateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAD71B2044F2008F12AC /* TYDoctorUpdateHandler.swift */; };
+		DEFFFAE91B2044F2008F12AC /* TYDoctorUpdateOrderPriceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAD81B2044F2008F12AC /* TYDoctorUpdateOrderPriceHandler.swift */; };
+		DEFFFAEA1B2044F2008F12AC /* TYDoctorUpdateOrderStateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAD91B2044F2008F12AC /* TYDoctorUpdateOrderStateHandler.swift */; };
+		DEFFFAFD1B2044F8008F12AC /* TYDoctorAccountEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAF41B2044F8008F12AC /* TYDoctorAccountEntity.swift */; };
+		DEFFFAFE1B2044F8008F12AC /* TYDoctorInformationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAF51B2044F8008F12AC /* TYDoctorInformationEntity.swift */; };
+		DEFFFAFF1B2044F8008F12AC /* TYDoctorUpdateEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAF61B2044F8008F12AC /* TYDoctorUpdateEntity.swift */; };
+		DEFFFB001B2044F8008F12AC /* TYDoctorUpdateExpandEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAF71B2044F8008F12AC /* TYDoctorUpdateExpandEntity.swift */; };
+		DEFFFB021B2044F8008F12AC /* TYSysConfigEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFAF91B2044F8008F12AC /* TYSysConfigEntity.swift */; };
+		DEFFFB0B1B204559008F12AC /* TYPatientListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFB071B204559008F12AC /* TYPatientListTableViewCell.swift */; };
+		DEFFFB0C1B204559008F12AC /* TYPatientListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEFFFB081B204559008F12AC /* TYPatientListTableViewCell.xib */; };
+		DEFFFB0D1B204559008F12AC /* TYPatientListTableViewCellEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFB091B204559008F12AC /* TYPatientListTableViewCellEntity.swift */; };
+		DEFFFB101B2061B0008F12AC /* TYPatientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFFFB0F1B2061B0008F12AC /* TYPatientListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEE6AEF31B0EC2E900238356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE6AED51B0EC2E900238356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE6AEDC1B0EC2E900238356;
+			remoteInfo = DaBai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CC13ED9E74284D698F47E5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7C2C0D661B43747300A3406D /* TYDoctorSonDicEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorSonDicEntity.swift; sourceTree = "<group>"; };
+		B3E0759BA28C25AB2B51BA40 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DE59DB411B3BE68300A900A3 /* TYWorkTitleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYWorkTitleTableViewController.swift; sourceTree = "<group>"; };
+		DE59DB431B3BEC3A00A900A3 /* TYDicStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDicStorage.swift; sourceTree = "<group>"; };
+		DE5D17ED1B32734C0018D291 /* TYSelectConsultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYSelectConsultViewController.swift; sourceTree = "<group>"; };
+		DE9063271B298DC40051CC69 /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		DE9063281B298DC40051CC69 /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		DE9063291B298DC40051CC69 /* MJRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshComponent.h; sourceTree = "<group>"; };
+		DE90632A1B298DC40051CC69 /* MJRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshComponent.m; sourceTree = "<group>"; };
+		DE90632B1B298DC40051CC69 /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		DE90632C1B298DC40051CC69 /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		DE90632D1B298DC40051CC69 /* MJRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooter.h; sourceTree = "<group>"; };
+		DE90632E1B298DC40051CC69 /* MJRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooter.m; sourceTree = "<group>"; };
+		DE90632F1B298DC40051CC69 /* MJRefreshGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshGifFooter.h; sourceTree = "<group>"; };
+		DE9063301B298DC40051CC69 /* MJRefreshGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshGifFooter.m; sourceTree = "<group>"; };
+		DE9063311B298DC40051CC69 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		DE9063321B298DC40051CC69 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		DE9063331B298DC40051CC69 /* MJRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeader.h; sourceTree = "<group>"; };
+		DE9063341B298DC40051CC69 /* MJRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeader.m; sourceTree = "<group>"; };
+		DE9063351B298DC40051CC69 /* MJRefreshLegendFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshLegendFooter.h; sourceTree = "<group>"; };
+		DE9063361B298DC40051CC69 /* MJRefreshLegendFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshLegendFooter.m; sourceTree = "<group>"; };
+		DE9063371B298DC40051CC69 /* MJRefreshLegendHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshLegendHeader.h; sourceTree = "<group>"; };
+		DE9063381B298DC40051CC69 /* MJRefreshLegendHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshLegendHeader.m; sourceTree = "<group>"; };
+		DE9063391B298DC40051CC69 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		DE90633A1B298DC40051CC69 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		DE90633B1B298DC40051CC69 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		DE90633C1B298DC40051CC69 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		DE90633D1B298DC40051CC69 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		DE90633E1B298DC40051CC69 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		DEE193211B1EFB2D00CB73C5 /* TYAppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYAppUtils.swift; sourceTree = "<group>"; };
+		DEE193281B1F00AA00CB73C5 /* TYBaseInformationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYBaseInformationTableViewController.swift; sourceTree = "<group>"; };
+		DEE1932A1B1F00AA00CB73C5 /* ChargeSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargeSettingViewController.swift; sourceTree = "<group>"; };
+		DEE1932C1B1F00AA00CB73C5 /* TYExpandInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYExpandInformationViewController.swift; sourceTree = "<group>"; };
+		DEE1932E1B1F00AA00CB73C5 /* TYLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYLoginViewController.swift; sourceTree = "<group>"; };
+		DEE193301B1F00AA00CB73C5 /* TYChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYChangePasswordViewController.swift; sourceTree = "<group>"; };
+		DEE193311B1F00AA00CB73C5 /* TYFindPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYFindPasswordViewController.swift; sourceTree = "<group>"; };
+		DEE193331B1F00AA00CB73C5 /* TYRegistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYRegistViewController.swift; sourceTree = "<group>"; };
+		DEE193351B1F00AA00CB73C5 /* UseCentreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCentreViewController.swift; sourceTree = "<group>"; };
+		DEE193401B1F00BC00CB73C5 /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		DEE327121B213ED500007019 /* testPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = testPlayground.playground; sourceTree = "<group>"; };
+		DEE327161B2148F000007019 /* TYPatientInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYPatientInfoViewController.swift; sourceTree = "<group>"; };
+		DEE3271A1B21515200007019 /* TYPatientInfoTableViewCellEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYPatientInfoTableViewCellEntity.swift; sourceTree = "<group>"; };
+		DEE3271C1B2151A800007019 /* TYPatientInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYPatientInfoTableViewCell.swift; sourceTree = "<group>"; };
+		DEE3271D1B2151A800007019 /* TYPatientInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYPatientInfoTableViewCell.xib; sourceTree = "<group>"; };
+		DEE327221B21763600007019 /* TYAddPatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYAddPatientViewController.swift; sourceTree = "<group>"; };
+		DEE4708C1B16ADB30030AF55 /* ALBBOSSServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALBBOSSServiceProtocol.h; sourceTree = "<group>"; };
+		DEE4708D1B16ADB30030AF55 /* ALBBOSSServiceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALBBOSSServiceProvider.h; sourceTree = "<group>"; };
+		DEE4708E1B16ADB30030AF55 /* libALBB_OSS_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libALBB_OSS_IOS_SDK.a; sourceTree = "<group>"; };
+		DEE4708F1B16ADB30030AF55 /* ListObjectOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListObjectOption.h; sourceTree = "<group>"; };
+		DEE470901B16ADB30030AF55 /* ListObjectResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListObjectResult.h; sourceTree = "<group>"; };
+		DEE470911B16ADB30030AF55 /* ObjectInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInfo.h; sourceTree = "<group>"; };
+		DEE470921B16ADB30030AF55 /* OSSArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSArgs.h; sourceTree = "<group>"; };
+		DEE470931B16ADB30030AF55 /* OSSBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSBucket.h; sourceTree = "<group>"; };
+		DEE470941B16ADB30030AF55 /* OSSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSClient.h; sourceTree = "<group>"; };
+		DEE470951B16ADB30030AF55 /* OSSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSData.h; sourceTree = "<group>"; };
+		DEE470961B16ADB30030AF55 /* OSSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSFile.h; sourceTree = "<group>"; };
+		DEE470971B16ADB30030AF55 /* OSSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSLog.h; sourceTree = "<group>"; };
+		DEE470981B16ADB30030AF55 /* OSSMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSMeta.h; sourceTree = "<group>"; };
+		DEE470991B16ADB30030AF55 /* OSSMultipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSMultipart.h; sourceTree = "<group>"; };
+		DEE4709A1B16ADB30030AF55 /* OSSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSObject.h; sourceTree = "<group>"; };
+		DEE4709B1B16ADB30030AF55 /* OSSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSRange.h; sourceTree = "<group>"; };
+		DEE4709C1B16ADB30030AF55 /* OSSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSTool.h; sourceTree = "<group>"; };
+		DEE5325A1B38EEC900319831 /* TYWebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYWebSocket.swift; sourceTree = "<group>"; };
+		DEE6496D1B144D88004D7469 /* UserDefaultsUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsUtils.swift; sourceTree = "<group>"; };
+		DEE6AEDD1B0EC2E900238356 /* DaBai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaBai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE6AEE11B0EC2E900238356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE6AEE21B0EC2E900238356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEE6AEE41B0EC2E900238356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEE6AEE71B0EC2E900238356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEE6AEE91B0EC2E900238356 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEE6AEEC1B0EC2E900238356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DEE6AEF21B0EC2E900238356 /* DaBaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaBaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE6AEF71B0EC2E900238356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEE6AEF81B0EC2E900238356 /* DaBaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaBaiTests.swift; sourceTree = "<group>"; };
+		DEE6AF191B0EC4F600238356 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		DEE6DCE71B2FCEDA00420802 /* TYSelectDoctorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYSelectDoctorViewController.swift; sourceTree = "<group>"; };
+		DEE8D69A1B3A42B500DD61A5 /* TYConsultingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYConsultingViewController.swift; sourceTree = "<group>"; };
+		DEE95D871B267A72004891A1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DEEB7E061B1C059B00EF2A3C /* TYCityPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYCityPickerView.swift; sourceTree = "<group>"; };
+		DEEB7E081B1C09A700EF2A3C /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		DEEC9B211B25414500CF06E0 /* TYAddPacaseHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYAddPacaseHistoryViewController.swift; sourceTree = "<group>"; };
+		DEEC9B231B25441D00CF06E0 /* TYPacaseHistoryInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYPacaseHistoryInfoViewController.swift; sourceTree = "<group>"; };
+		DEED6C3D1B12F0A40065667E /* TYNetworkingSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYNetworkingSetting.swift; sourceTree = "<group>"; };
+		DEED6C461B12F80F0065667E /* TYBaseHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYBaseHandler.swift; sourceTree = "<group>"; };
+		DEED6C481B12F8210065667E /* TYBaseEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYBaseEntity.swift; sourceTree = "<group>"; };
+		DEED6C4C1B12F87A0065667E /* TYBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYBaseViewController.swift; sourceTree = "<group>"; };
+		DEF1ED071B2924C8001D6DA4 /* TYWenZhenListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYWenZhenListViewController.swift; sourceTree = "<group>"; };
+		DEF1ED091B2924D8001D6DA4 /* TYHuiZhenListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYHuiZhenListViewController.swift; sourceTree = "<group>"; };
+		DEF1ED0B1B292AFA001D6DA4 /* TYConsultInfoEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYConsultInfoEntity.swift; sourceTree = "<group>"; };
+		DEF1ED0D1B295AC9001D6DA4 /* TYConsultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYConsultTableViewCell.swift; sourceTree = "<group>"; };
+		DEF1ED0E1B295AC9001D6DA4 /* TYConsultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYConsultTableViewCell.xib; sourceTree = "<group>"; };
+		DEF3694F1B2EAC2E00AF93F7 /* IQAudioRecorderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQAudioRecorderController.h; sourceTree = "<group>"; };
+		DEF369501B2EAC2E00AF93F7 /* IQAudioRecorderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQAudioRecorderController.m; sourceTree = "<group>"; };
+		DEF369521B2EAC2E00AF93F7 /* audio_record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio_record.png; sourceTree = "<group>"; };
+		DEF369531B2EAC2E00AF93F7 /* audio_record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "audio_record@2x.png"; sourceTree = "<group>"; };
+		DEF369551B2EAC2E00AF93F7 /* SCSiriWaveformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSiriWaveformView.h; sourceTree = "<group>"; };
+		DEF369561B2EAC2E00AF93F7 /* SCSiriWaveformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSiriWaveformView.m; sourceTree = "<group>"; };
+		DEF3695C1B2ED4F700AF93F7 /* TYDoctorListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorListViewController.swift; sourceTree = "<group>"; };
+		DEF3695E1B2ED73300AF93F7 /* TYDoctorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorTableViewCell.swift; sourceTree = "<group>"; };
+		DEF3695F1B2ED73300AF93F7 /* TYDoctorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYDoctorTableViewCell.xib; sourceTree = "<group>"; };
+		DEF369621B2ED99E00AF93F7 /* TYDoctorTableViewCellEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorTableViewCellEntity.swift; sourceTree = "<group>"; };
+		DEFCF5551B14588800CC4744 /* TYSysConfigStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYSysConfigStorage.swift; sourceTree = "<group>"; };
+		DEFCF5591B14714900CC4744 /* TYDoctorInformationStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorInformationStorage.swift; sourceTree = "<group>"; };
+		DEFFFACF1B2044F2008F12AC /* TYOssDownloadHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYOssDownloadHandler.swift; sourceTree = "<group>"; };
+		DEFFFAD01B2044F2008F12AC /* TYOssHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYOssHandler.swift; sourceTree = "<group>"; };
+		DEFFFAD11B2044F2008F12AC /* TYOssUploadHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYOssUploadHandler.swift; sourceTree = "<group>"; };
+		DEFFFAD51B2044F2008F12AC /* TYDoctorUpdateAccountHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorUpdateAccountHandler.swift; sourceTree = "<group>"; };
+		DEFFFAD61B2044F2008F12AC /* TYDoctorUpdateExpandHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorUpdateExpandHandler.swift; sourceTree = "<group>"; };
+		DEFFFAD71B2044F2008F12AC /* TYDoctorUpdateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorUpdateHandler.swift; sourceTree = "<group>"; };
+		DEFFFAD81B2044F2008F12AC /* TYDoctorUpdateOrderPriceHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorUpdateOrderPriceHandler.swift; sourceTree = "<group>"; };
+		DEFFFAD91B2044F2008F12AC /* TYDoctorUpdateOrderStateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorUpdateOrderStateHandler.swift; sourceTree = "<group>"; };
+		DEFFFAF41B2044F8008F12AC /* TYDoctorAccountEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorAccountEntity.swift; sourceTree = "<group>"; };
+		DEFFFAF51B2044F8008F12AC /* TYDoctorInformationEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorInformationEntity.swift; sourceTree = "<group>"; };
+		DEFFFAF61B2044F8008F12AC /* TYDoctorUpdateEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorUpdateEntity.swift; sourceTree = "<group>"; };
+		DEFFFAF71B2044F8008F12AC /* TYDoctorUpdateExpandEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYDoctorUpdateExpandEntity.swift; sourceTree = "<group>"; };
+		DEFFFAF91B2044F8008F12AC /* TYSysConfigEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYSysConfigEntity.swift; sourceTree = "<group>"; };
+		DEFFFB071B204559008F12AC /* TYPatientListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYPatientListTableViewCell.swift; sourceTree = "<group>"; };
+		DEFFFB081B204559008F12AC /* TYPatientListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYPatientListTableViewCell.xib; sourceTree = "<group>"; };
+		DEFFFB091B204559008F12AC /* TYPatientListTableViewCellEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYPatientListTableViewCellEntity.swift; sourceTree = "<group>"; };
+		DEFFFB0F1B2061B0008F12AC /* TYPatientListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYPatientListViewController.swift; sourceTree = "<group>"; };
+		F1BFF6787EE24CDCEC6080EC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEE6AEDA1B0EC2E900238356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE95D881B267A72004891A1 /* AVFoundation.framework in Frameworks */,
+				09A68428EEB364874F7947FA /* libPods.a in Frameworks */,
+				DEE4709D1B16ADB30030AF55 /* libALBB_OSS_IOS_SDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE6AEEF1B0EC2E900238356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A7C52A4D5FEC369926296D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18CC13ED9E74284D698F47E5 /* Pods.debug.xcconfig */,
+				B3E0759BA28C25AB2B51BA40 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		967A2A1E9F8844901FC19161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEE95D871B267A72004891A1 /* AVFoundation.framework */,
+				F1BFF6787EE24CDCEC6080EC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE5D17EC1B32732B0018D291 /* SelectConsult */ = {
+			isa = PBXGroup;
+			children = (
+				DE5D17ED1B32734C0018D291 /* TYSelectConsultViewController.swift */,
+				DEE8D69A1B3A42B500DD61A5 /* TYConsultingViewController.swift */,
+			);
+			path = SelectConsult;
+			sourceTree = "<group>";
+		};
+		DE9063261B298DC40051CC69 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				DE9063271B298DC40051CC69 /* MJRefresh.bundle */,
+				DE9063281B298DC40051CC69 /* MJRefresh.h */,
+				DE9063291B298DC40051CC69 /* MJRefreshComponent.h */,
+				DE90632A1B298DC40051CC69 /* MJRefreshComponent.m */,
+				DE90632B1B298DC40051CC69 /* MJRefreshConst.h */,
+				DE90632C1B298DC40051CC69 /* MJRefreshConst.m */,
+				DE90632D1B298DC40051CC69 /* MJRefreshFooter.h */,
+				DE90632E1B298DC40051CC69 /* MJRefreshFooter.m */,
+				DE90632F1B298DC40051CC69 /* MJRefreshGifFooter.h */,
+				DE9063301B298DC40051CC69 /* MJRefreshGifFooter.m */,
+				DE9063311B298DC40051CC69 /* MJRefreshGifHeader.h */,
+				DE9063321B298DC40051CC69 /* MJRefreshGifHeader.m */,
+				DE9063331B298DC40051CC69 /* MJRefreshHeader.h */,
+				DE9063341B298DC40051CC69 /* MJRefreshHeader.m */,
+				DE9063351B298DC40051CC69 /* MJRefreshLegendFooter.h */,
+				DE9063361B298DC40051CC69 /* MJRefreshLegendFooter.m */,
+				DE9063371B298DC40051CC69 /* MJRefreshLegendHeader.h */,
+				DE9063381B298DC40051CC69 /* MJRefreshLegendHeader.m */,
+				DE9063391B298DC40051CC69 /* UIScrollView+MJExtension.h */,
+				DE90633A1B298DC40051CC69 /* UIScrollView+MJExtension.m */,
+				DE90633B1B298DC40051CC69 /* UIScrollView+MJRefresh.h */,
+				DE90633C1B298DC40051CC69 /* UIScrollView+MJRefresh.m */,
+				DE90633D1B298DC40051CC69 /* UIView+MJExtension.h */,
+				DE90633E1B298DC40051CC69 /* UIView+MJExtension.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		DEE193251B1F00AA00CB73C5 /* UserCentreModule */ = {
+			isa = PBXGroup;
+			children = (
+				DEE193271B1F00AA00CB73C5 /* BaseInformationViewControllel */,
+				DEE193291B1F00AA00CB73C5 /* ChargeSettingViewController */,
+				DEE1932B1B1F00AA00CB73C5 /* ExpandInformationViewController */,
+				DEE1932D1B1F00AA00CB73C5 /* LoginViewController */,
+				DEE1932F1B1F00AA00CB73C5 /* Password */,
+				DEE193321B1F00AA00CB73C5 /* RegistViewController */,
+				DEE193341B1F00AA00CB73C5 /* UseCentreViewController */,
+			);
+			path = UserCentreModule;
+			sourceTree = "<group>";
+		};
+		DEE193271B1F00AA00CB73C5 /* BaseInformationViewControllel */ = {
+			isa = PBXGroup;
+			children = (
+				DEE193281B1F00AA00CB73C5 /* TYBaseInformationTableViewController.swift */,
+			);
+			path = BaseInformationViewControllel;
+			sourceTree = "<group>";
+		};
+		DEE193291B1F00AA00CB73C5 /* ChargeSettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1932A1B1F00AA00CB73C5 /* ChargeSettingViewController.swift */,
+			);
+			path = ChargeSettingViewController;
+			sourceTree = "<group>";
+		};
+		DEE1932B1B1F00AA00CB73C5 /* ExpandInformationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1932C1B1F00AA00CB73C5 /* TYExpandInformationViewController.swift */,
+			);
+			path = ExpandInformationViewController;
+			sourceTree = "<group>";
+		};
+		DEE1932D1B1F00AA00CB73C5 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1932E1B1F00AA00CB73C5 /* TYLoginViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		DEE1932F1B1F00AA00CB73C5 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				DEE193301B1F00AA00CB73C5 /* TYChangePasswordViewController.swift */,
+				DEE193311B1F00AA00CB73C5 /* TYFindPasswordViewController.swift */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		DEE193321B1F00AA00CB73C5 /* RegistViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEE193331B1F00AA00CB73C5 /* TYRegistViewController.swift */,
+			);
+			path = RegistViewController;
+			sourceTree = "<group>";
+		};
+		DEE193341B1F00AA00CB73C5 /* UseCentreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEE193351B1F00AA00CB73C5 /* UseCentreViewController.swift */,
+			);
+			path = UseCentreViewController;
+			sourceTree = "<group>";
+		};
+		DEE1933E1B1F00B500CB73C5 /* PatientModule */ = {
+			isa = PBXGroup;
+			children = (
+				DEE327151B2148CD00007019 /* PatientInfo */,
+				DEFFFB061B204559008F12AC /* PatientList */,
+			);
+			path = PatientModule;
+			sourceTree = "<group>";
+		};
+		DEE1933F1B1F00BC00CB73C5 /* TestModule */ = {
+			isa = PBXGroup;
+			children = (
+				DEE193401B1F00BC00CB73C5 /* testViewController.swift */,
+				DEE327121B213ED500007019 /* testPlayground.playground */,
+			);
+			path = TestModule;
+			sourceTree = "<group>";
+		};
+		DEE327151B2148CD00007019 /* PatientInfo */ = {
+			isa = PBXGroup;
+			children = (
+				DEE327161B2148F000007019 /* TYPatientInfoViewController.swift */,
+				DEE327221B21763600007019 /* TYAddPatientViewController.swift */,
+				DEE3271A1B21515200007019 /* TYPatientInfoTableViewCellEntity.swift */,
+				DEE3271C1B2151A800007019 /* TYPatientInfoTableViewCell.swift */,
+				DEE3271D1B2151A800007019 /* TYPatientInfoTableViewCell.xib */,
+				DEEC9B211B25414500CF06E0 /* TYAddPacaseHistoryViewController.swift */,
+				DEEC9B231B25441D00CF06E0 /* TYPacaseHistoryInfoViewController.swift */,
+			);
+			path = PatientInfo;
+			sourceTree = "<group>";
+		};
+		DEE4708A1B16ADB30030AF55 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3694E1B2EAC2E00AF93F7 /* IQAudioRecorderController */,
+				DE9063261B298DC40051CC69 /* MJRefresh */,
+				DEE4708B1B16ADB30030AF55 /* ALBBOSS */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		DEE4708B1B16ADB30030AF55 /* ALBBOSS */ = {
+			isa = PBXGroup;
+			children = (
+				DEE4708C1B16ADB30030AF55 /* ALBBOSSServiceProtocol.h */,
+				DEE4708D1B16ADB30030AF55 /* ALBBOSSServiceProvider.h */,
+				DEE4708E1B16ADB30030AF55 /* libALBB_OSS_IOS_SDK.a */,
+				DEE4708F1B16ADB30030AF55 /* ListObjectOption.h */,
+				DEE470901B16ADB30030AF55 /* ListObjectResult.h */,
+				DEE470911B16ADB30030AF55 /* ObjectInfo.h */,
+				DEE470921B16ADB30030AF55 /* OSSArgs.h */,
+				DEE470931B16ADB30030AF55 /* OSSBucket.h */,
+				DEE470941B16ADB30030AF55 /* OSSClient.h */,
+				DEE470951B16ADB30030AF55 /* OSSData.h */,
+				DEE470961B16ADB30030AF55 /* OSSFile.h */,
+				DEE470971B16ADB30030AF55 /* OSSLog.h */,
+				DEE470981B16ADB30030AF55 /* OSSMeta.h */,
+				DEE470991B16ADB30030AF55 /* OSSMultipart.h */,
+				DEE4709A1B16ADB30030AF55 /* OSSObject.h */,
+				DEE4709B1B16ADB30030AF55 /* OSSRange.h */,
+				DEE4709C1B16ADB30030AF55 /* OSSTool.h */,
+			);
+			path = ALBBOSS;
+			sourceTree = "<group>";
+		};
+		DEE6496C1B144D4C004D7469 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DEE6496D1B144D88004D7469 /* UserDefaultsUtils.swift */,
+				DEE193211B1EFB2D00CB73C5 /* TYAppUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DEE6AED41B0EC2E900238356 = {
+			isa = PBXGroup;
+			children = (
+				DEFFFAF31B2044F8008F12AC /* Model */,
+				DEE4708A1B16ADB30030AF55 /* lib */,
+				DEE6AF111B0EC47800238356 /* Application */,
+				DEE6AF141B0EC4A300238356 /* Base */,
+				DEE6AF151B0EC4A300238356 /* Controller */,
+				DEFFFACD1B2044F2008F12AC /* Handler */,
+				DEE6AF171B0EC4A300238356 /* Network */,
+				DEED6C771B132ED00065667E /* Storage */,
+				DEE6496C1B144D4C004D7469 /* Utils */,
+				DEE6AF181B0EC4A300238356 /* View */,
+				DEE6AEDF1B0EC2E900238356 /* DaBai */,
+				DEE6AEF51B0EC2E900238356 /* DaBaiTests */,
+				DEE6AEDE1B0EC2E900238356 /* Products */,
+				3A7C52A4D5FEC369926296D3 /* Pods */,
+				967A2A1E9F8844901FC19161 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEE6AEDE1B0EC2E900238356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE6AEDD1B0EC2E900238356 /* DaBai.app */,
+				DEE6AEF21B0EC2E900238356 /* DaBaiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEE6AEDF1B0EC2E900238356 /* DaBai */ = {
+			isa = PBXGroup;
+			children = (
+				DEE6AEE21B0EC2E900238356 /* AppDelegate.swift */,
+				DEE6AEE41B0EC2E900238356 /* ViewController.swift */,
+				DEE6AEE61B0EC2E900238356 /* Main.storyboard */,
+				DEE6AEE91B0EC2E900238356 /* Images.xcassets */,
+				DEE6AEEB1B0EC2E900238356 /* LaunchScreen.xib */,
+				DEE6AEE01B0EC2E900238356 /* Supporting Files */,
+			);
+			path = DaBai;
+			sourceTree = "<group>";
+		};
+		DEE6AEE01B0EC2E900238356 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE6AEE11B0EC2E900238356 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEE6AEF51B0EC2E900238356 /* DaBaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEE6AEF81B0EC2E900238356 /* DaBaiTests.swift */,
+				DEE6AEF61B0EC2E900238356 /* Supporting Files */,
+			);
+			path = DaBaiTests;
+			sourceTree = "<group>";
+		};
+		DEE6AEF61B0EC2E900238356 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE6AEF71B0EC2E900238356 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEE6AF111B0EC47800238356 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DEE6AF191B0EC4F600238356 /* Bridging-Header.h */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DEE6AF141B0EC4A300238356 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DEED6C461B12F80F0065667E /* TYBaseHandler.swift */,
+				DEED6C481B12F8210065667E /* TYBaseEntity.swift */,
+				DEED6C4C1B12F87A0065667E /* TYBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DEE6AF151B0EC4A300238356 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEEAC9B91B2839FB009757E1 /* ConsultModule */,
+				DEE1933F1B1F00BC00CB73C5 /* TestModule */,
+				DEE1933E1B1F00B500CB73C5 /* PatientModule */,
+				DEE193251B1F00AA00CB73C5 /* UserCentreModule */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DEE6AF171B0EC4A300238356 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DEED6C3D1B12F0A40065667E /* TYNetworkingSetting.swift */,
+				DEE5325A1B38EEC900319831 /* TYWebSocket.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DEE6AF181B0EC4A300238356 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB7E061B1C059B00EF2A3C /* TYCityPickerView.swift */,
+				DEEB7E081B1C09A700EF2A3C /* area.plist */,
+				DE59DB411B3BE68300A900A3 /* TYWorkTitleTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEE6DCE61B2FCE9600420802 /* SelectDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				DEE6DCE71B2FCEDA00420802 /* TYSelectDoctorViewController.swift */,
+			);
+			path = SelectDoctor;
+			sourceTree = "<group>";
+		};
+		DEEAC9B91B2839FB009757E1 /* ConsultModule */ = {
+			isa = PBXGroup;
+			children = (
+				DE5D17EC1B32732B0018D291 /* SelectConsult */,
+				DEE6DCE61B2FCE9600420802 /* SelectDoctor */,
+				DEF3695B1B2ED38000AF93F7 /* DoctorList */,
+				DEF1ED071B2924C8001D6DA4 /* TYWenZhenListViewController.swift */,
+				DEF1ED091B2924D8001D6DA4 /* TYHuiZhenListViewController.swift */,
+				DEF1ED0B1B292AFA001D6DA4 /* TYConsultInfoEntity.swift */,
+				DEF1ED0D1B295AC9001D6DA4 /* TYConsultTableViewCell.swift */,
+				DEF1ED0E1B295AC9001D6DA4 /* TYConsultTableViewCell.xib */,
+			);
+			path = ConsultModule;
+			sourceTree = "<group>";
+		};
+		DEED6C771B132ED00065667E /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				DEFCF5551B14588800CC4744 /* TYSysConfigStorage.swift */,
+				DEFCF5591B14714900CC4744 /* TYDoctorInformationStorage.swift */,
+				DE59DB431B3BEC3A00A900A3 /* TYDicStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		DEF3694E1B2EAC2E00AF93F7 /* IQAudioRecorderController */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3694F1B2EAC2E00AF93F7 /* IQAudioRecorderController.h */,
+				DEF369501B2EAC2E00AF93F7 /* IQAudioRecorderController.m */,
+				DEF369511B2EAC2E00AF93F7 /* Resources */,
+				DEF369541B2EAC2E00AF93F7 /* SCSiriWaveformView */,
+			);
+			path = IQAudioRecorderController;
+			sourceTree = "<group>";
+		};
+		DEF369511B2EAC2E00AF93F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DEF369521B2EAC2E00AF93F7 /* audio_record.png */,
+				DEF369531B2EAC2E00AF93F7 /* audio_record@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DEF369541B2EAC2E00AF93F7 /* SCSiriWaveformView */ = {
+			isa = PBXGroup;
+			children = (
+				DEF369551B2EAC2E00AF93F7 /* SCSiriWaveformView.h */,
+				DEF369561B2EAC2E00AF93F7 /* SCSiriWaveformView.m */,
+			);
+			path = SCSiriWaveformView;
+			sourceTree = "<group>";
+		};
+		DEF3695B1B2ED38000AF93F7 /* DoctorList */ = {
+			isa = PBXGroup;
+			children = (
+				DEF3695C1B2ED4F700AF93F7 /* TYDoctorListViewController.swift */,
+				DEF3695E1B2ED73300AF93F7 /* TYDoctorTableViewCell.swift */,
+				DEF3695F1B2ED73300AF93F7 /* TYDoctorTableViewCell.xib */,
+				DEF369621B2ED99E00AF93F7 /* TYDoctorTableViewCellEntity.swift */,
+			);
+			path = DoctorList;
+			sourceTree = "<group>";
+		};
+		DEFFFACD1B2044F2008F12AC /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFFACE1B2044F2008F12AC /* OSSHandler */,
+				DEFFFAD41B2044F2008F12AC /* UserCentreModule */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		DEFFFACE1B2044F2008F12AC /* OSSHandler */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFFACF1B2044F2008F12AC /* TYOssDownloadHandler.swift */,
+				DEFFFAD01B2044F2008F12AC /* TYOssHandler.swift */,
+				DEFFFAD11B2044F2008F12AC /* TYOssUploadHandler.swift */,
+			);
+			path = OSSHandler;
+			sourceTree = "<group>";
+		};
+		DEFFFAD41B2044F2008F12AC /* UserCentreModule */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFFAD51B2044F2008F12AC /* TYDoctorUpdateAccountHandler.swift */,
+				DEFFFAD61B2044F2008F12AC /* TYDoctorUpdateExpandHandler.swift */,
+				DEFFFAD71B2044F2008F12AC /* TYDoctorUpdateHandler.swift */,
+				DEFFFAD81B2044F2008F12AC /* TYDoctorUpdateOrderPriceHandler.swift */,
+				DEFFFAD91B2044F2008F12AC /* TYDoctorUpdateOrderStateHandler.swift */,
+			);
+			path = UserCentreModule;
+			sourceTree = "<group>";
+		};
+		DEFFFAF31B2044F8008F12AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFFAF41B2044F8008F12AC /* TYDoctorAccountEntity.swift */,
+				DEFFFAF51B2044F8008F12AC /* TYDoctorInformationEntity.swift */,
+				DEFFFAF61B2044F8008F12AC /* TYDoctorUpdateEntity.swift */,
+				DEFFFAF71B2044F8008F12AC /* TYDoctorUpdateExpandEntity.swift */,
+				DEFFFAF91B2044F8008F12AC /* TYSysConfigEntity.swift */,
+				7C2C0D661B43747300A3406D /* TYDoctorSonDicEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEFFFB061B204559008F12AC /* PatientList */ = {
+			isa = PBXGroup;
+			children = (
+				DEFFFB071B204559008F12AC /* TYPatientListTableViewCell.swift */,
+				DEFFFB081B204559008F12AC /* TYPatientListTableViewCell.xib */,
+				DEFFFB091B204559008F12AC /* TYPatientListTableViewCellEntity.swift */,
+				DEFFFB0F1B2061B0008F12AC /* TYPatientListViewController.swift */,
+			);
+			path = PatientList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEE6AEDC1B0EC2E900238356 /* DaBai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE6AEFC1B0EC2E900238356 /* Build configuration list for PBXNativeTarget "DaBai" */;
+			buildPhases = (
+				08B3BA3C1D54B09CCA92C045 /* Check Pods Manifest.lock */,
+				DEE6AED91B0EC2E900238356 /* Sources */,
+				DEE6AEDA1B0EC2E900238356 /* Frameworks */,
+				DEE6AEDB1B0EC2E900238356 /* Resources */,
+				4A684CF9364820B4B83E3924 /* Copy Pods Resources */,
+				956D091752C252A2734FE8E2 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaBai;
+			productName = DaBai;
+			productReference = DEE6AEDD1B0EC2E900238356 /* DaBai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEE6AEF11B0EC2E900238356 /* DaBaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE6AEFF1B0EC2E900238356 /* Build configuration list for PBXNativeTarget "DaBaiTests" */;
+			buildPhases = (
+				DEE6AEEE1B0EC2E900238356 /* Sources */,
+				DEE6AEEF1B0EC2E900238356 /* Frameworks */,
+				DEE6AEF01B0EC2E900238356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE6AEF41B0EC2E900238356 /* PBXTargetDependency */,
+			);
+			name = DaBaiTests;
+			productName = DaBaiTests;
+			productReference = DEE6AEF21B0EC2E900238356 /* DaBaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEE6AED51B0EC2E900238356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = BaiTianWei;
+				TargetAttributes = {
+					DEE6AEDC1B0EC2E900238356 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 329V4CHYGZ;
+					};
+					DEE6AEF11B0EC2E900238356 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DEE6AEDC1B0EC2E900238356;
+					};
+				};
+			};
+			buildConfigurationList = DEE6AED81B0EC2E900238356 /* Build configuration list for PBXProject "DaBai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEE6AED41B0EC2E900238356;
+			productRefGroup = DEE6AEDE1B0EC2E900238356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEE6AEDC1B0EC2E900238356 /* DaBai */,
+				DEE6AEF11B0EC2E900238356 /* DaBaiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEE6AEDB1B0EC2E900238356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF1ED101B295AC9001D6DA4 /* TYConsultTableViewCell.xib in Resources */,
+				DEFFFB0C1B204559008F12AC /* TYPatientListTableViewCell.xib in Resources */,
+				DEF369581B2EAC2E00AF93F7 /* audio_record.png in Resources */,
+				DEE6AEE81B0EC2E900238356 /* Main.storyboard in Resources */,
+				DEF369591B2EAC2E00AF93F7 /* audio_record@2x.png in Resources */,
+				DEE3271F1B2151A800007019 /* TYPatientInfoTableViewCell.xib in Resources */,
+				DEEB7E091B1C09A700EF2A3C /* area.plist in Resources */,
+				DEE6AEED1B0EC2E900238356 /* LaunchScreen.xib in Resources */,
+				DEF369611B2ED73300AF93F7 /* TYDoctorTableViewCell.xib in Resources */,
+				DE90633F1B298DC40051CC69 /* MJRefresh.bundle in Resources */,
+				DEE6AEEA1B0EC2E900238356 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE6AEF01B0EC2E900238356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08B3BA3C1D54B09CCA92C045 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A684CF9364820B4B83E3924 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956D091752C252A2734FE8E2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEE6AED91B0EC2E900238356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF1ED081B2924C8001D6DA4 /* TYWenZhenListViewController.swift in Sources */,
+				DEFFFAE91B2044F2008F12AC /* TYDoctorUpdateOrderPriceHandler.swift in Sources */,
+				DEF369571B2EAC2E00AF93F7 /* IQAudioRecorderController.m in Sources */,
+				DEEC9B241B25441D00CF06E0 /* TYPacaseHistoryInfoViewController.swift in Sources */,
+				DEE3271B1B21515200007019 /* TYPatientInfoTableViewCellEntity.swift in Sources */,
+				DE9063411B298DC40051CC69 /* MJRefreshConst.m in Sources */,
+				DEFFFB001B2044F8008F12AC /* TYDoctorUpdateExpandEntity.swift in Sources */,
+				DEF1ED0F1B295AC9001D6DA4 /* TYConsultTableViewCell.swift in Sources */,
+				DEE5325B1B38EEC900319831 /* TYWebSocket.swift in Sources */,
+				DE59DB421B3BE68300A900A3 /* TYWorkTitleTableViewController.swift in Sources */,
+				DEFFFAEA1B2044F2008F12AC /* TYDoctorUpdateOrderStateHandler.swift in Sources */,
+				DEE193361B1F00AA00CB73C5 /* TYBaseInformationTableViewController.swift in Sources */,
+				DE9063461B298DC40051CC69 /* MJRefreshLegendFooter.m in Sources */,
+				DE59DB441B3BEC3A00A900A3 /* TYDicStorage.swift in Sources */,
+				DEFFFB0B1B204559008F12AC /* TYPatientListTableViewCell.swift in Sources */,
+				DEE193391B1F00AA00CB73C5 /* TYLoginViewController.swift in Sources */,
+				DEFCF55A1B14714900CC4744 /* TYDoctorInformationStorage.swift in Sources */,
+				DEE1933D1B1F00AA00CB73C5 /* UseCentreViewController.swift in Sources */,
+				DEE327231B21763600007019 /* TYAddPatientViewController.swift in Sources */,
+				DEE8D69B1B3A42B500DD61A5 /* TYConsultingViewController.swift in Sources */,
+				DEE193411B1F00BC00CB73C5 /* testViewController.swift in Sources */,
+				DEFFFAFD1B2044F8008F12AC /* TYDoctorAccountEntity.swift in Sources */,
+				DEE6496E1B144D88004D7469 /* UserDefaultsUtils.swift in Sources */,
+				DEF369631B2ED99E00AF93F7 /* TYDoctorTableViewCellEntity.swift in Sources */,
+				DEE1933B1B1F00AA00CB73C5 /* TYFindPasswordViewController.swift in Sources */,
+				DEED6C491B12F8210065667E /* TYBaseEntity.swift in Sources */,
+				DEE3271E1B2151A800007019 /* TYPatientInfoTableViewCell.swift in Sources */,
+				DEFFFB0D1B204559008F12AC /* TYPatientListTableViewCellEntity.swift in Sources */,
+				DE90634A1B298DC40051CC69 /* UIView+MJExtension.m in Sources */,
+				DEF1ED0C1B292AFA001D6DA4 /* TYConsultInfoEntity.swift in Sources */,
+				DEFFFAE61B2044F2008F12AC /* TYDoctorUpdateAccountHandler.swift in Sources */,
+				7C2C0D671B43747300A3406D /* TYDoctorSonDicEntity.swift in Sources */,
+				DEE327171B2148F000007019 /* TYPatientInfoViewController.swift in Sources */,
+				DEF1ED0A1B2924D8001D6DA4 /* TYHuiZhenListViewController.swift in Sources */,
+				DEE6AEE51B0EC2E900238356 /* ViewController.swift in Sources */,
+				DE9063431B298DC40051CC69 /* MJRefreshGifFooter.m in Sources */,
+				DEFFFB101B2061B0008F12AC /* TYPatientListViewController.swift in Sources */,
+				DE5D17EE1B32734C0018D291 /* TYSelectConsultViewController.swift in Sources */,
+				DEE193381B1F00AA00CB73C5 /* TYExpandInformationViewController.swift in Sources */,
+				DEE6AEE31B0EC2E900238356 /* AppDelegate.swift in Sources */,
+				DEFFFAE21B2044F2008F12AC /* TYOssDownloadHandler.swift in Sources */,
+				DEFFFAE31B2044F2008F12AC /* TYOssHandler.swift in Sources */,
+				DEE1933A1B1F00AA00CB73C5 /* TYChangePasswordViewController.swift in Sources */,
+				DEED6C471B12F80F0065667E /* TYBaseHandler.swift in Sources */,
+				DE9063491B298DC40051CC69 /* UIScrollView+MJRefresh.m in Sources */,
+				DEFFFAE41B2044F2008F12AC /* TYOssUploadHandler.swift in Sources */,
+				DE9063421B298DC40051CC69 /* MJRefreshFooter.m in Sources */,
+				DEEB7E071B1C059B00EF2A3C /* TYCityPickerView.swift in Sources */,
+				DEE1933C1B1F00AA00CB73C5 /* TYRegistViewController.swift in Sources */,
+				DEED6C4D1B12F87A0065667E /* TYBaseViewController.swift in Sources */,
+				DEF369601B2ED73300AF93F7 /* TYDoctorTableViewCell.swift in Sources */,
+				DE9063481B298DC40051CC69 /* UIScrollView+MJExtension.m in Sources */,
+				DEEC9B221B25414500CF06E0 /* TYAddPacaseHistoryViewController.swift in Sources */,
+				DEED6C3E1B12F0A40065667E /* TYNetworkingSetting.swift in Sources */,
+				DEFFFAE71B2044F2008F12AC /* TYDoctorUpdateExpandHandler.swift in Sources */,
+				DEE6DCE81B2FCEDA00420802 /* TYSelectDoctorViewController.swift in Sources */,
+				DEE193371B1F00AA00CB73C5 /* ChargeSettingViewController.swift in Sources */,
+				DEFFFAE81B2044F2008F12AC /* TYDoctorUpdateHandler.swift in Sources */,
+				DE9063401B298DC40051CC69 /* MJRefreshComponent.m in Sources */,
+				DEFFFAFE1B2044F8008F12AC /* TYDoctorInformationEntity.swift in Sources */,
+				DEE193221B1EFB2D00CB73C5 /* TYAppUtils.swift in Sources */,
+				DE9063441B298DC40051CC69 /* MJRefreshGifHeader.m in Sources */,
+				DE9063451B298DC40051CC69 /* MJRefreshHeader.m in Sources */,
+				DEFCF5561B14588800CC4744 /* TYSysConfigStorage.swift in Sources */,
+				DE9063471B298DC40051CC69 /* MJRefreshLegendHeader.m in Sources */,
+				DEFFFAFF1B2044F8008F12AC /* TYDoctorUpdateEntity.swift in Sources */,
+				DEF3695D1B2ED4F700AF93F7 /* TYDoctorListViewController.swift in Sources */,
+				DEFFFB021B2044F8008F12AC /* TYSysConfigEntity.swift in Sources */,
+				DEF3695A1B2EAC2E00AF93F7 /* SCSiriWaveformView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE6AEEE1B0EC2E900238356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE6AEF91B0EC2E900238356 /* DaBaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE6AEF41B0EC2E900238356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEE6AEDC1B0EC2E900238356 /* DaBai */;
+			targetProxy = DEE6AEF31B0EC2E900238356 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEE6AEE61B0EC2E900238356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE6AEE71B0EC2E900238356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEE6AEEB1B0EC2E900238356 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEE6AEEC1B0EC2E900238356 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEE6AEFA1B0EC2E900238356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEE6AEFB1B0EC2E900238356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEE6AEFD1B0EC2E900238356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18CC13ED9E74284D698F47E5 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DaBai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib/ALBBOSS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "33ada7f7-472a-4a0d-800f-3bc02bfbafc5";
+				SWIFT_OBJC_BRIDGING_HEADER = "Application/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DEE6AEFE1B0EC2E900238356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E0759BA28C25AB2B51BA40 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DaBai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib/ALBBOSS",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "33ada7f7-472a-4a0d-800f-3bc02bfbafc5";
+				SWIFT_OBJC_BRIDGING_HEADER = "Application/Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DEE6AF001B0EC2E900238356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DaBaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaBai.app/DaBai";
+			};
+			name = Debug;
+		};
+		DEE6AF011B0EC2E900238356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DaBaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaBai.app/DaBai";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEE6AED81B0EC2E900238356 /* Build configuration list for PBXProject "DaBai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE6AEFA1B0EC2E900238356 /* Debug */,
+				DEE6AEFB1B0EC2E900238356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE6AEFC1B0EC2E900238356 /* Build configuration list for PBXNativeTarget "DaBai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE6AEFD1B0EC2E900238356 /* Debug */,
+				DEE6AEFE1B0EC2E900238356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEE6AEFF1B0EC2E900238356 /* Build configuration list for PBXNativeTarget "DaBaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE6AF001B0EC2E900238356 /* Debug */,
+				DEE6AF011B0EC2E900238356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEE6AED51B0EC2E900238356 /* Project object */;
+}

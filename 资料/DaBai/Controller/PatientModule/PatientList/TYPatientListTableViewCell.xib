@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TYPatientListTableViewCell" id="KGk-i7-Jjw" customClass="TYPatientListTableViewCell" customModule="DaBai" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姓名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3U-Hl-ac3">
+                        <rect key="frame" x="8" y="8" width="61" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="性别" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scu-Jg-z86">
+                        <rect key="frame" x="69" y="8" width="61" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="年龄" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EZ-aX-Ces">
+                        <rect key="frame" x="130" y="8" width="60" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GST-xo-wzc">
+                        <rect key="frame" x="190" y="8" width="122" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GST-xo-wzc" firstAttribute="leading" secondItem="0EZ-aX-Ces" secondAttribute="trailing" id="1yh-jZ-f4c"/>
+                    <constraint firstItem="scu-Jg-z86" firstAttribute="width" secondItem="0EZ-aX-Ces" secondAttribute="width" id="24m-rg-DQg"/>
+                    <constraint firstItem="scu-Jg-z86" firstAttribute="leading" secondItem="d3U-Hl-ac3" secondAttribute="trailing" id="2Eu-Ay-Yz2"/>
+                    <constraint firstItem="scu-Jg-z86" firstAttribute="width" secondItem="d3U-Hl-ac3" secondAttribute="width" id="2Fa-F2-bpF"/>
+                    <constraint firstItem="scu-Jg-z86" firstAttribute="height" secondItem="GST-xo-wzc" secondAttribute="height" id="2Mn-if-kI2"/>
+                    <constraint firstItem="0EZ-aX-Ces" firstAttribute="leading" secondItem="scu-Jg-z86" secondAttribute="trailing" id="4jf-mq-Jx4"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="d3U-Hl-ac3" secondAttribute="bottom" id="I9H-B0-B55"/>
+                    <constraint firstItem="scu-Jg-z86" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Iug-vx-2sX"/>
+                    <constraint firstItem="scu-Jg-z86" firstAttribute="height" secondItem="0EZ-aX-Ces" secondAttribute="height" id="TNG-80-yKU"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="0EZ-aX-Ces" secondAttribute="bottom" id="ZEv-P9-GBL"/>
+                    <constraint firstItem="d3U-Hl-ac3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="bfV-WM-cu5"/>
+                    <constraint firstItem="0EZ-aX-Ces" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="g4D-io-2zu"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="scu-Jg-z86" secondAttribute="bottom" id="iHi-3w-ttf"/>
+                    <constraint firstItem="GST-xo-wzc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="iZE-xp-Y37"/>
+                    <constraint firstItem="scu-Jg-z86" firstAttribute="width" secondItem="GST-xo-wzc" secondAttribute="width" multiplier="0.5" id="mnh-F6-oKq"/>
+                    <constraint firstItem="scu-Jg-z86" firstAttribute="height" secondItem="d3U-Hl-ac3" secondAttribute="height" id="qoD-qO-f9T"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="GST-xo-wzc" secondAttribute="trailing" id="tEb-rp-Dii"/>
+                    <constraint firstItem="d3U-Hl-ac3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="xEQ-W4-xW1"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="GST-xo-wzc" secondAttribute="bottom" id="yFb-dh-Hdf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ageLabel" destination="0EZ-aX-Ces" id="s3u-lv-5Js"/>
+                <outlet property="nameLabel" destination="d3U-Hl-ac3" id="fOT-g0-EVo"/>
+                <outlet property="sexLabel" destination="scu-Jg-z86" id="wN1-8C-t8W"/>
+                <outlet property="telLabel" destination="GST-xo-wzc" id="3l5-ZZ-McS"/>
+            </connections>
+            <point key="canvasLocation" x="494" y="255"/>
+        </tableViewCell>
+    </objects>
+</document>
